@@ -272,10 +272,27 @@ section:nth-child(even){
 
 
 
+.doctor .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap:2rem;
+}
 
-
-
-
+.doctor .box-container  .box{
+    text-align: center;
+    background:#fff;
+    border-radius: .5rem;
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    padding: 2rem;
+}
+.doctor .box-container  .box img{
+    height:20rem ;
+    border: var(--border);
+    border-radius: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 
 
 
